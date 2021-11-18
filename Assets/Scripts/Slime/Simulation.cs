@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.Experimental.Rendering;
 using ComputeShaderUtility;
 
@@ -31,10 +32,10 @@ public class Simulation : MonoBehaviour
 
 	protected virtual void Start()
 	{
+		Screen.SetResolution(1920,1920,false);
 		Init();
 		transform.GetComponentInChildren<MeshRenderer>().material.mainTexture = displayTexture;
 	}
-
 
 	void Init()
 	{
