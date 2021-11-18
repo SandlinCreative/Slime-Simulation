@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2665318e53759e74db7a2d8238331945, type: 3}
   m_Name: E
   m_EditorClassIdentifier: 
-  stepsPerFrame: 10
-  width: 2000
-  height: 2000
-  numAgents: 30000
+  stepsPerFrame: 5
+  width: 2560
+  height: 1440
+  numAgents: 22000
   spawnMode: 1
   trailWeight: 1.35
   decayRate: 0.01
@@ -26,4 +26,16 @@ MonoBehaviour:
     sensorAngleSpacing: 112
     sensorOffsetDst: 20
     sensorSize: 1
-    colour: {r: 1, g: 0.6221392, b: 0.07232696, a: 0}
+    colour: {r: 0, g: 0, b: 1, a: 0}
+  - moveSpeed: 4.99
+    turnSpeed: -1
+    sensorAngleSpacing: 112
+    sensorOffsetDst: 20
+    sensorSize: 1
+    colour: {r: 1, g: 0, b: 0, a: 0}
+  - moveSpeed: 4.99
+    turnSpeed: -1
+    sensorAngleSpacing: 112
+    sensorOffsetDst: 20
+    sensorSize: 1
+    colour: {r: 0, g: 1, b: 0, a: 0}
